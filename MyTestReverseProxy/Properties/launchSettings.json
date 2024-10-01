@@ -16,7 +16,9 @@
       "launchUrl": "weatherforecast",
       "applicationUrl": "http://localhost:5178",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ENCRYPTION_KEY": "lt8OPtxK/USCrnKlCFKEjQ==",
+        "ENCRYPTION_IV": "g8fEXhY1tIBN/shVdeSnJw=="
       }
     },
     "https": {
@@ -26,7 +28,9 @@
       "launchUrl": "weatherforecast",
       "applicationUrl": "https://localhost:7030;http://localhost:5178",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ENCRYPTION_KEY": "lt8OPtxK/USCrnKlCFKEjQ==",
+        "ENCRYPTION_IV": "g8fEXhY1tIBN/shVdeSnJw=="
       }
     },
     "IIS Express": {
@@ -34,7 +38,7 @@
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
       }
     }
   }
